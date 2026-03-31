@@ -1,0 +1,141 @@
+[
+  {
+    "id": "prod_001",
+    "name": "Starter Plan",
+    "description": "Perfect for individuals looking to build their first professional resume.",
+    "price": 0.00,
+    "period": "one-time",
+    "tag": "Free",
+    "tagType": "new",
+    "features": [
+      "3 basic templates",
+      "Export to PDF",
+      "Mobile app access"
+    ],
+    "icon": "https://example.com/icons/starter.png"
+  },
+  {
+    "id": "prod_002",
+    "name": "Pro Monthly",
+    "description": "Advanced tools for active job seekers needing a competitive edge.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ premium templates",
+      "ATS optimization",
+      "AI cover letter builder",
+      "Priority support"
+    ],
+    "icon": "https://example.com/icons/pro.png"
+  },
+  {
+    "id": "prod_003",
+    "name": "Elite Annual",
+    "description": "Full access to all features with the best long-term value.",
+    "price": 149.00,
+    "period": "yearly",
+    "tag": "Best Value",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited resumes",
+      "LinkedIn profile audit",
+      "Custom domain hosting",
+      "No ads"
+    ],
+    "icon": "https://example.com/icons/elite.png"
+  },
+  {
+    "id": "prod_004",
+    "name": "Design Toolkit",
+    "description": "A curated collection of assets for creative professionals.",
+    "price": 49.00,
+    "period": "one-time",
+    "tag": "Designer Choice",
+    "tagType": "popular",
+    "features": [
+      "Vector icons included",
+      "Custom color palettes",
+      "Font licensing"
+    ],
+    "icon": "https://example.com/icons/design.png"
+  },
+  {
+    "id": "prod_005",
+    "name": "Team Sync",
+    "description": "Collaboration tools for recruitment teams and HR agencies.",
+    "price": 89.99,
+    "period": "monthly",
+    "tag": "Enterprise",
+    "tagType": "new",
+    "features": [
+      "Up to 5 users",
+      "Shared asset library",
+      "Team analytics",
+      "Role-based permissions"
+    ],
+    "icon": "https://example.com/icons/team.png"
+  },
+  {
+    "id": "prod_006",
+    "name": "Resume Audit",
+    "description": "A one-time professional review by an industry expert.",
+    "price": 75.00,
+    "period": "one-time",
+    "tag": "Hot Deal",
+    "tagType": "popular",
+    "features": [
+      "Grammar check",
+      "Keyword density analysis",
+      "30-minute consultation"
+    ],
+    "icon": "https://example.com/icons/audit.png"
+  },
+  {
+    "id": "prod_007",
+    "name": "Growth Bundle",
+    "description": "Seasonal bundle for graduates entering the workforce.",
+    "price": 99.00,
+    "period": "yearly",
+    "tag": "New Release",
+    "tagType": "new",
+    "features": [
+      "Basic templates",
+      "Career coaching session",
+      "E-book: Salary Negotiation"
+    ],
+    "icon": "https://example.com/icons/growth.png"
+  },
+  {
+    "id": "prod_008",
+    "name": "API Access",
+    "description": "Developer-centric plan for integrating resume parsing into your app.",
+    "price": 299.00,
+    "period": "monthly",
+    "tag": "Developer",
+    "tagType": "best seller",
+    "features": [
+      "10k requests/month",
+      "Webhooks support",
+      "JSON/XML output",
+      "99.9% Uptime SLA"
+    ],
+    "icon": "https://example.com/icons/api.png"
+  },
+  {
+    "id": "prod_009",
+    "name": "Legacy Lifetime",
+    "description": "One payment, lifetime access to all future updates.",
+    "price": 499.00,
+    "period": "one-time",
+    "tag": "Limited Time",
+    "tagType": "popular",
+    "features": [
+      "Early beta access",
+      "VIP support line",
+      "All future templates"
+    ],
+    "icon": "https://example.com/icons/legacy.png"
+  }
+]

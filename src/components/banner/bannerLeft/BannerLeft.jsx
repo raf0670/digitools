@@ -15,8 +15,8 @@ const BannerLeft = () => {
                 </div>
             </div>
 
-            <h1 className='text-7xl font-bold'>Supercharge Your</h1>
-            <h1 className='text-7xl font-bold'>Digital Workflow</h1>
+            <h1 className='lg:text-7xl text-5xl font-bold'>Supercharge Your</h1>
+            <h1 className='lg:text-7xl text-5xl font-bold'>Digital Workflow</h1>
 
             <div className='text-gray-400'>
                 <p>Access premium AI tools, design assets, templates, and productivity</p>
@@ -25,8 +25,8 @@ const BannerLeft = () => {
             </div>
 
             <div className='flex gap-8'>
-                <button className='btn bg-linear-to-r from-indigo-500 to-purple-500 rounded-full text-lg text-white hover:scale-105 transition-all duration-400'>Explore Products</button>
-                <button className='btn bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent hover:scale-105 transition-all duration-400 border border-purple-500 px-5 rounded-full'>Explore Products</button>
+                <button className='btn bg-linear-to-r from-indigo-500 to-purple-500 rounded-full text-lg text-white hover:scale-105 transition-all duration-400 py-6'>Explore Products</button>
+                <button className='btn bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent hover:scale-105 transition-all duration-400 border border-purple-500 px-5 py-6 rounded-full'>Explore Products</button>
             </div>
         </div>
     );

@@ -1,10 +1,10 @@
 [
   {
-    "id": "prod_001",
+    "id": "1",
     "name": "Starter Plan",
     "description": "Perfect for individuals looking to build their first professional resume.",
     "price": 0.00,
-    "period": "one-time",
+    "period": "One-time",
     "tag": "Free",
     "tagType": "new",
     "features": [
@@ -12,46 +12,44 @@
       "Export to PDF",
       "Mobile app access"
     ],
-    "icon": "https://example.com/icons/starter.png"
+    "icon": "https://i.ibb.co.com/HTVmvTsf/design-tool2.png"
   },
   {
-    "id": "prod_002",
+    "id": "2",
     "name": "Pro Monthly",
     "description": "Advanced tools for active job seekers needing a competitive edge.",
     "price": 19.99,
-    "period": "monthly",
+    "period": "Monthly",
     "tag": "Popular",
     "tagType": "popular",
     "features": [
       "100+ premium templates",
       "ATS optimization",
-      "AI cover letter builder",
-      "Priority support"
+      "AI cover letter builder"
     ],
-    "icon": "https://example.com/icons/pro.png"
+    "icon": "https://i.ibb.co.com/xQVnQNX/operation.png"
   },
   {
-    "id": "prod_003",
+    "id": "3",
     "name": "Elite Annual",
     "description": "Full access to all features with the best long-term value.",
     "price": 149.00,
-    "period": "yearly",
+    "period": "Yearly",
     "tag": "Best Value",
     "tagType": "best seller",
     "features": [
       "Unlimited resumes",
-      "LinkedIn profile audit",
       "Custom domain hosting",
       "No ads"
     ],
-    "icon": "https://example.com/icons/elite.png"
+    "icon": "https://i.ibb.co.com/TDbWT88d/portfolio.png"
   },
   {
-    "id": "prod_004",
+    "id": "4",
     "name": "Design Toolkit",
     "description": "A curated collection of assets for creative professionals.",
     "price": 49.00,
-    "period": "one-time",
+    "period": "One-time",
     "tag": "Designer Choice",
     "tagType": "popular",
     "features": [
@@ -59,30 +57,29 @@
       "Custom color palettes",
       "Font licensing"
     ],
-    "icon": "https://example.com/icons/design.png"
+    "icon": "https://i.ibb.co.com/HTwx0z12/social-media2.png"
   },
   {
-    "id": "prod_005",
+    "id": "5",
     "name": "Team Sync",
     "description": "Collaboration tools for recruitment teams and HR agencies.",
     "price": 89.99,
-    "period": "monthly",
+    "period": "Monthly",
     "tag": "Enterprise",
     "tagType": "new",
     "features": [
-      "Up to 5 users",
       "Shared asset library",
       "Team analytics",
       "Role-based permissions"
     ],
-    "icon": "https://example.com/icons/team.png"
+    "icon": "https://i.ibb.co.com/PZHBWr15/writing-2327400-1.png"
   },
   {
-    "id": "prod_006",
+    "id": "6",
     "name": "Resume Audit",
     "description": "A one-time professional review by an industry expert.",
     "price": 75.00,
-    "period": "one-time",
+    "period": "One-time",
     "tag": "Hot Deal",
     "tagType": "popular",
     "features": [
@@ -90,14 +87,14 @@
       "Keyword density analysis",
       "30-minute consultation"
     ],
-    "icon": "https://example.com/icons/audit.png"
+    "icon": "https://i.ibb.co.com/HTVmvTsf/design-tool2.png"
   },
   {
-    "id": "prod_007",
+    "id": "7",
     "name": "Growth Bundle",
     "description": "Seasonal bundle for graduates entering the workforce.",
     "price": 99.00,
-    "period": "yearly",
+    "period": "Yearly",
     "tag": "New Release",
     "tagType": "new",
     "features": [
@@ -105,30 +102,29 @@
       "Career coaching session",
       "E-book: Salary Negotiation"
     ],
-    "icon": "https://example.com/icons/growth.png"
+    "icon": "https://i.ibb.co.com/KzyrwsT1/operation2.png"
   },
   {
-    "id": "prod_008",
+    "id": "8",
     "name": "API Access",
     "description": "Developer-centric plan for integrating resume parsing into your app.",
     "price": 299.00,
-    "period": "monthly",
+    "period": "Monthly",
     "tag": "Developer",
     "tagType": "best seller",
     "features": [
       "10k requests/month",
-      "Webhooks support",
       "JSON/XML output",
       "99.9% Uptime SLA"
     ],
-    "icon": "https://example.com/icons/api.png"
+    "icon": "https://i.ibb.co.com/67SYcvkF/portfolio2.png"
   },
   {
-    "id": "prod_009",
+    "id": "9",
     "name": "Legacy Lifetime",
     "description": "One payment, lifetime access to all future updates.",
     "price": 499.00,
-    "period": "one-time",
+    "period": "One-time",
     "tag": "Limited Time",
     "tagType": "popular",
     "features": [
@@ -136,6 +132,6 @@
       "VIP support line",
       "All future templates"
     ],
-    "icon": "https://example.com/icons/legacy.png"
+    "icon": "https://i.ibb.co.com/HTwx0z12/social-media2.png"
   }
 ]

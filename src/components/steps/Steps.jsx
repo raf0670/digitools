@@ -5,9 +5,11 @@ import StepsCards from './StepsCards';
 
 const Steps = () => {
     return (
-        <div>
-            <Heading></Heading>
-            <StepsCards></StepsCards>
+        <div className='bg-gray-50 py-30'>
+            <div className='space-y-10 w-11/12 sm:w-10/12 mx-auto text-center'>
+                <Heading></Heading>
+                <StepsCards></StepsCards>
+            </div>
         </div>
     );
 };

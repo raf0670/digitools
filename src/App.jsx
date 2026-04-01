@@ -28,7 +28,6 @@ function App() {
       </div>}>
         <ToolsSection toolsPromise={toolsPromise} selectedTools={selectedTools} setSelectedTools={setSelectedTools}></ToolsSection>
       </Suspense>
-
       <Steps></Steps>
     </>
   )

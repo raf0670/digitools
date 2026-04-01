@@ -5,6 +5,7 @@ import Navbar from './components/navbar/Navbar'
 import ToolsSection from './components/tools/ToolsSection'
 import Steps from './components/steps/Steps';
 import PricingSection from './components/pricing/PricingSection';
+import PreFooter from './components/preFooter/PreFooter';
 
 const fetchData = async () => {
   const res = await fetch("/data.json");
@@ -31,6 +32,7 @@ function App() {
       </Suspense>
       <Steps></Steps>
       <PricingSection></PricingSection>
+      <PreFooter></PreFooter>
     </>
   )
 }

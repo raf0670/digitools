@@ -1,4 +1,5 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const SelectedCard = ({ tool, setSelectedTools }) => {
     const removeClick = () => {
@@ -6,6 +7,7 @@ const SelectedCard = ({ tool, setSelectedTools }) => {
             const newTools = currentTools.filter(currentTool => currentTool !== tool);
             return newTools;
         });
+        toast(`${tool.name} removed from cart!`);
     }
 
     return (

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import tickMark from "../../assets/products/Vector.png";
+import { toast } from 'react-toastify';
 
 const ToolCard = ({ tool, setSelectedTools }) => {
     const [isSelected, setIsSelected] = useState(false);
@@ -7,9 +8,10 @@ const ToolCard = ({ tool, setSelectedTools }) => {
         setIsSelected(true);
         setSelectedTools(prevTools => {
             const newTools = [...prevTools, tool];
-            console.log(newTools);
+            // console.log(newTools);
             return newTools;
         });
+        toast(`${tool.name} added to cart!`);
     }
 
     return (

@@ -1,8 +1,14 @@
 import React from 'react';
 import SelectedCard from './SelectedCard';
 import Empty from './Empty';
+import { toast } from 'react-toastify';
 
 const SelectedSection = ({ selectedTools, setSelectedTools }) => {
+    const checkoutClick = () => {
+        setSelectedTools([]);
+        toast("Checkout Done! Cart CLeared!");
+    }
+
     if (selectedTools.length === 0) {
         return (
             <Empty></Empty>
@@ -30,7 +36,7 @@ const SelectedSection = ({ selectedTools, setSelectedTools }) => {
                 <h3 className='text-3xl font-semibold'>${calculateTotalPrice()}</h3>
             </div>
             <div>
-                <button className='btn bg-linear-to-r from-indigo-500 to-purple-500 rounded-full w-full text-white'>Proceed to Checkout</button>
+                <button onClick={checkoutClick} className='btn bg-linear-to-r from-indigo-500 to-purple-500 rounded-full w-full text-white'>Proceed to Checkout</button>
             </div>
         </div>
     );

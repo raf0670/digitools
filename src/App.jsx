@@ -4,6 +4,7 @@ import Banner from './components/banner/Banner'
 import Navbar from './components/navbar/Navbar'
 import ToolsSection from './components/tools/ToolsSection'
 import Steps from './components/steps/Steps';
+import PricingSection from './components/pricing/PricingSection';
 
 const fetchData = async () => {
   const res = await fetch("/data.json");
@@ -29,6 +30,7 @@ function App() {
         <ToolsSection toolsPromise={toolsPromise} selectedTools={selectedTools} setSelectedTools={setSelectedTools}></ToolsSection>
       </Suspense>
       <Steps></Steps>
+      <PricingSection></PricingSection>
     </>
   )
 }

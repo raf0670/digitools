@@ -18,14 +18,15 @@
     "id": "2",
     "name": "Pro Monthly",
     "description": "Advanced tools for active job seekers needing a competitive edge.",
-    "price": 19.99,
+    "price": 19,
     "period": "Monthly",
     "tag": "Popular",
     "tagType": "popular",
     "features": [
       "100+ premium templates",
       "ATS optimization",
-      "AI cover letter builder"
+      "AI cover letter builder",
+      "Priority support"
     ],
     "icon": "https://i.ibb.co.com/xQVnQNX/operation.png"
   },
@@ -39,6 +40,7 @@
     "tagType": "best seller",
     "features": [
       "Unlimited resumes",
+      "LinkedIn profile audit",
       "Custom domain hosting",
       "No ads"
     ],
@@ -53,9 +55,10 @@
     "tag": "Designer Choice",
     "tagType": "popular",
     "features": [
-      "Vector icons included",
-      "Custom color palettes",
-      "Font licensing"
+      "Up to 5 users",
+      "Shared asset library",
+      "Team analytics",
+      "Role-based permissions"
     ],
     "icon": "https://i.ibb.co.com/HTwx0z12/social-media2.png"
   },
@@ -63,7 +66,7 @@
     "id": "5",
     "name": "Team Sync",
     "description": "Collaboration tools for recruitment teams and HR agencies.",
-    "price": 89.99,
+    "price": 89,
     "period": "Monthly",
     "tag": "Enterprise",
     "tagType": "new",
@@ -114,6 +117,7 @@
     "tagType": "best seller",
     "features": [
       "10k requests/month",
+      "Webhooks support",
       "JSON/XML output",
       "99.9% Uptime SLA"
     ],

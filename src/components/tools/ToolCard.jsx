@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import tickMark from "../../assets/products/Vector.png";
 
-const ToolCard = ({ tool }) => {
+const ToolCard = ({ tool, setSelectedTools }) => {
+    const [isSelected, setIsSelected] = useState(false);
+    const buyNowClick = () => {
+        setIsSelected(true);
+        setSelectedTools(prevTools => {
+            const newTools = [...prevTools, tool];
+            console.log(newTools);
+            return newTools;
+        });
+    }
 
     return (
-        <div className="card bg-base-100 shadow-lg">
-            <div className="card-body">
+        <div className="card bg-base-100 shadow-lg h-full flex flex-col">
+            <div className="card-body flex flex-col h-full">
                 <div className='flex justify-between items-center relative'>
                     <div className='border border-gray-300 rounded-full h-fit w-fit p-3'>
                         <img src={tool.icon} alt="" />
@@ -17,27 +26,27 @@ const ToolCard = ({ tool }) => {
                 <div>
                     <h2 className='text-3xl font-semibold'>{tool.name}</h2>
                 </div>
-                <div>
+                <div className='grow'>
                     <p className='text-gray-400'>{tool.description}</p>
                 </div>
-                <div>
+                <div className='grow'>
                     {
                         tool.price === 0 ? <p className='text-3xl font-semibold'>Free</p> : <p><span className='text-3xl font-semibold'>{tool.price}</span><span className='text-gray-400'>/{tool.period}</span></p>
                     }
                 </div>
-                <div>
+                <div className='grow'>
                     {
                         tool.features.map((feature, index) => {
                             return (
-                                <div key={index}>
-                                    <p className='flex items-center gap-2'><span><img src={tickMark} alt="" /></span>{feature}</p>
-                                </div>
+                                <p key={index} className='flex items-center gap-2'><span><img src={tickMark} alt="" /></span>{feature}</p>
                             )
                         })
                     }
                 </div>
                 <div className="mt-6">
-                    <button className="btn rounded-full btn-block bg-linear-to-r from-indigo-500 to-purple-500 text-white">Buy Now</button>
+                    {
+                        isSelected ? <button onClick={buyNowClick} className="btn rounded-full btn-block text-black" disabled>Selected</button> : <button onClick={buyNowClick} className="btn rounded-full btn-block bg-linear-to-r from-indigo-500 to-purple-500 text-white">Buy Now</button>
+                    }
                 </div>
             </div>
         </div>

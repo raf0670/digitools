@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Badge = () => {
+const Badge = ({ selectedTools }) => {
     return (
-        <span className="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-xs font-bold text-white">0</span>
+        <span className="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-xs font-bold text-white">{selectedTools.length}</span>
     );
 };
 

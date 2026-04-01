@@ -2,7 +2,7 @@ import React from 'react';
 import shoppingCartImg from "../../assets/products/shopping-cart.png";
 import Badge from './Badge';
 
-const Navbar = () => {
+const Navbar = ({ selectedTools }) => {
     return (
         <div className="p-4 bg-base-100 shadow-sm">
             <div className='w-11/12 lg:w-10/12 flex items-center mx-auto'>
@@ -36,7 +36,7 @@ const Navbar = () => {
                     <div className='flex gap-3 items-center'>
                         <div className='relative'>
                             <img src={shoppingCartImg} className='w-5 h-5' alt="" />
-                            <Badge></Badge>
+                            <Badge selectedTools={selectedTools}></Badge>
                         </div>
                         <h2 className='text-xl font-semibold'>Login</h2>
                     </div>

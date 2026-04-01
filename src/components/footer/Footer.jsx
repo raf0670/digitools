@@ -7,8 +7,8 @@ const Footer = () => {
     return (
         <div className='bg-[#101727] w-full pt-30 pb-8 text-gray-300'>
             <div className='w-11/12 md:w-10/12 mx-auto'>
-                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 pb-20 gap-12 border-b border-gray-700'>
-                    <div className='space-y-5 col-span-2'>
+                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 pb-20 gap-12 border-b border-gray-700'>
+                    <div className='space-y-5 md:col-span-2'>
                         <h1 className='text-4xl font-bold text-white'>DigiTools</h1>
                         <p className='leading-5'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
                     </div>
@@ -47,7 +47,7 @@ const Footer = () => {
                     <div>
                         <p>© 2026 Digitools. All rights reserved.</p>
                     </div>
-                    <div className='flex gap-16'>
+                    <div className='flex gap-10 flex-col md:flex-row'>
                         <p>Privacy Policy</p>
                         <p>Terms of Service</p>
                         <p>Cookies</p>
